@@ -1,0 +1,7 @@
+@if((auth.loggedIn|async)) {
+  <app-user-info> </app-user-info>
+}
+@else {
+  <app-login> </app-login>
+}
+<router-outlet />
