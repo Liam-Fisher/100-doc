@@ -3,7 +3,7 @@ import { Component, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { BehaviorSubject } from 'rxjs';
-import { FirebaseStorageService } from '../../services/firebase-storage.service';
+import { FirebaseStorageService } from '../../services/storage/firebase-storage.service';
 @Component({
   selector: 'app-file-select',
   standalone: true,
